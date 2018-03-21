@@ -25,7 +25,9 @@ Usage instructions:
 3. Open the Point Cloud exporter with the following Python script:
 
 import PointCloudExportUI as pceUI
+
 pUI = pceUI.UI()
+
 pUI.start()
 
 4. Pick a folder and write a file name. Adjust the voxel size and smoothness.
